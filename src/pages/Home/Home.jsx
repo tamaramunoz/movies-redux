@@ -1,10 +1,13 @@
 import React from 'react'
+import { Container, Typography } from '@material-ui/core'
 
 const Home = () => {
     return (
-        <div>
-            Home
-        </div>
+        <Container>
+            <Typography>
+                Home
+            </Typography>
+        </Container>
     )
 }
 
