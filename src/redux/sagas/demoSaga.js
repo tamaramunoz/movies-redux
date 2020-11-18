@@ -1,6 +1,6 @@
 import { put, call } from 'redux-saga/effects';
 import { getDemo } from '../api';
-import * as types from '../../consts/actionTypes';
+import * as types from '../../const/actionTypes';
 
 export function* getDemoRequestSaga({ payload }) {
     try {
